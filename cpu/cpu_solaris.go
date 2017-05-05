@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/Azareal/gopsutil/internal/common"
 )
 
 var ClocksPerSec = float64(128)
