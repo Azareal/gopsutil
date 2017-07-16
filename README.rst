@@ -7,8 +7,8 @@ gopsutil: psutil for golang
 .. image:: https://coveralls.io/repos/shirou/gopsutil/badge.svg?branch=master
         :target: https://coveralls.io/r/shirou/gopsutil?branch=master
 
-.. image:: https://godoc.org/github.com/shirou/gopsutil?status.svg
-        :target: http://godoc.org/github.com/shirou/gopsutil
+.. image:: https://godoc.org/github.com/Azareal/gopsutil?status.svg
+        :target: http://godoc.org/github.com/Azareal/gopsutil
 
 This is a port of psutil (http://pythonhosted.org/psutil/). The challenge is porting all
 psutil functions on some architectures.
@@ -61,7 +61,7 @@ Note: gopsutil v2 breaks compatibility. If you want to stay with compatibility, 
    import (
        "fmt"
 
-       "github.com/shirou/gopsutil/mem"
+       "github.com/Azareal/gopsutil/mem"
    )
 
    func main() {
@@ -90,7 +90,7 @@ You can set an alternative location to :code:`/etc` by setting the :code:`HOST_E
 Documentation
 ------------------------
 
-see http://godoc.org/github.com/shirou/gopsutil
+see http://godoc.org/github.com/Azareal/gopsutil
 
 Requirements
 -----------------
